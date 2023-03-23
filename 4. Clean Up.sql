@@ -1,0 +1,12 @@
+USE ROLE ACCOUNTADMIN;
+DROP DATABASE DEV_DB;
+
+DROP ROLE CHEESEMONGER;
+DROP ROLE SHOPCLERK;
+DROP ROLE CUSTOMER;
+DROP ROLE _dev_db_cheeseshop_full;
+DROP ROLE _dev_db_cheeseshop_rw;
+DROP ROLE _dev_db_cheeseshop_r;
+DROP ROLE _dev_db_cheeseshop_ops;
+
+DROP WAREHOUSE CHEESE_WH;
